@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4e1d2;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.renaissance-timer {
+  border: 3px solid #8d6648;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff4e6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#timer {
+  font-size: 2em;
+  color: #8d6648;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8d6648;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a7855e;
+}
