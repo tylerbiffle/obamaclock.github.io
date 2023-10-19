@@ -1,3 +1,4 @@
+
 /* styles.css */
 body {
   display: flex;
@@ -33,4 +34,11 @@ button {
 
 button:hover {
   background-color: #a7855e;
+}
+#obama-image {
+  position: absolute;
+  top: 10px; /* adjust as needed */
+  left: 10px; /* adjust as needed */
+  width: 100px; /* adjust as needed */
+  height: auto; /* maintains aspect ratio */
 }
